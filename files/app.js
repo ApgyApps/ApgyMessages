@@ -1,10 +1,9 @@
-const signupbtn = document.getElementById("signupBTN");
-const loginBOX = document.getElementById("loginform");
+$("#signupBTN").click(function(){
+    $("#loginform").hide(1000);
+    $("#signupform").show(1000);
+});
 
-
-signupbtn.addEventListener("click", signupBOXaction);
-
-
-function signupBOXaction(){
-    alert("SIGN UP CLICKED");
-}
+$("#loginBTN").click(function(){
+    $("#loginform").show(1000);
+    $("#signupform").hide(1000);
+});

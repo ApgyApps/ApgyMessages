@@ -16,6 +16,7 @@
         <div class="container border-top">
             <h1 class="text-center grafont">ApgyMessages</h1>
             <p class="text-center mb-20">Send & Receive Secret Anonymous Messages Online</p>
+            <!--LOGIN FORM START-->
             <div id="loginform" class="newsletter">
                 <form action="" method="post">
                     <input type="number" id="num" class="form-box" placeholder="Your Number">
@@ -27,8 +28,26 @@
                     <a class="link" id="signupBTN">CREATE NEW ACCOUNT</a>
                 </div>
             </div>
+            <!--LOGIN FORM END-->
+
+            <!--SIGNUP FORM START-->
+            <div id="signupform" class="newsletter" style="display: none;">
+                <form action="" method="post">
+                    <input type="number" id="num" class="form-box" placeholder="Your Number">
+                    <input type="password" id="password" class="form-box" placeholder="Your Password">
+                    <button id="login" class="btn text-center">Sign Up</button>
+                </form>
+                <br/>
+                <div class="text-center">
+                    <a class="link" id="loginBTN">LOGIN WITH EXISTING ACCOUNT</a>
+                </div>
+            </div>
+            <!--SIGNUP FORM END-->
+
+
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script src="files/app.js"></script>
 </body>
 </html>
