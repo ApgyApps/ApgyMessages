@@ -1,5 +1,7 @@
 const signupbtn = document.getElementById("signupBTN");
-const signupBOX = document.getElementById("loginform");
+const loginBOX = document.getElementById("loginform");
+
+
 signupbtn.addEventListener("click", signupBOXaction);
 
 
