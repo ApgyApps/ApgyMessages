@@ -1,3 +1,6 @@
+.link{
+  cursor: pointer;
+}
 .border-top{
     border-top: var(--blue) solid 2px;
 }
