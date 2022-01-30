@@ -12,7 +12,6 @@ $("#login").click(function(){
     var phnumber = $('#num').val();
     var password = $('#password').val();
     if(phnumber && password !== ""){
-        alert("not empty");
         $("#result").load("/demodata.html");
     }
     else{
