@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ApgyMessages - Recieve Anonymous Messages</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet">
@@ -18,11 +18,10 @@
             <p class="text-center mb-20">Send & Receive Secret Anonymous Messages Online</p>
             <!--LOGIN FORM START-->
             <div id="loginform" class="newsletter">
-                <form action="" method="post">
+                    <div id="result"></div>
                     <input type="number" id="num" class="form-box" placeholder="Your Number">
                     <input type="password" id="password" class="form-box" placeholder="Your Password">
                     <button id="login" class="btn text-center">Login</button>
-                </form>
                 <br/>
                 <div class="text-center">
                     <a class="link" id="signupBTN">CREATE NEW ACCOUNT</a>
@@ -32,11 +31,9 @@
 
             <!--SIGNUP FORM START-->
             <div id="signupform" class="newsletter" style="display: none;">
-                <form action="" method="post">
                     <input type="number" id="num" class="form-box" placeholder="Your Number">
                     <input type="password" id="password" class="form-box" placeholder="Your Password">
-                    <button id="login" class="btn text-center">Sign Up</button>
-                </form>
+                    <button id="signup" class="btn text-center">Sign Up</button>
                 <br/>
                 <div class="text-center">
                     <a class="link" id="loginBTN">LOGIN WITH EXISTING ACCOUNT</a>
@@ -47,7 +44,7 @@
 
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="files/app.js"></script>
 </body>
 </html>
