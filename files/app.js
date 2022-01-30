@@ -12,7 +12,7 @@ $("#login").click(function(){
     var phnumber = $('#num').val();
     var password = $('#password').val();
     if(phnumber && password !== ""){
-        $("#result").load("/demodata.html");
+        $("#result").load("demodata.html");
     }
     else{
         $("#result").html(`<h3 class="text-center">Enter Data First</h3><br/>`);
